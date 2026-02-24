@@ -10,7 +10,7 @@ use PharIo\Manifest\AuthorCollection;
 // Home route
 Route::get('/', function () {
     return view('home');
-})->name('home');
+})->name('index');
 Route::get('/home', function () {
     return view('home');
 })->name('home');
